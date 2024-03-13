@@ -1,0 +1,28 @@
+.underline{
+    text-decoration: line-through;
+}
+
+.list{
+    margin-top: 2rem;
+    display: grid;
+    row-gap: 1rem;
+}
+
+.todo{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.todo p {
+    letter-spacing:1px;
+}
+
+.remove-btn {
+    padding: 0.15rem 0.25rem;
+    font-size: .75rem;
+    background: #222;
+    color: #fff;
+    border: none;
+}
